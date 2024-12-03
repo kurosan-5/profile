@@ -178,44 +178,15 @@ export default function Home() {
                 フレームワーク - Next.js・Laravel
               </Typography>
             </Grid2>
-            <Grid2>
-              <Typography
-                variant="body1"
-                component='p'
-              >
-                フロントエンド - React・Vue.js・Typescript
-              </Typography>
+            <Grid2
+            container
+            direction='row'
+            >
+
             </Grid2>
-            <Grid2>
-              <Typography
-                variant="body1"
-                component='p'
-              >
-                バックエンド - Node.js + Express, Python
-              </Typography>
-            </Grid2>
-            <Grid2>
-              <Typography
-                variant="body1"
-                component='p'
-              >
-                データベース - MySQL・PostgreSQL・NoSQL
-              </Typography>
-            </Grid2>
-            <Grid2>
-              <Typography
-                variant="body1"
-                component='p'
-              >
-                バージョン管理 - GitHub
-              </Typography>
-            </Grid2>
+            
           </Grid2>
-
         </Grid2>
-
-
-
       </Grid2>
 
     </>
